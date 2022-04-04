@@ -1,0 +1,133 @@
+.wow {
+    width: 100px;
+  }
+  
+  .topNav {
+    text-align: right;
+    background-color: #C4C4C4;
+  }
+  
+  .aTagNav {
+    padding: 10px;
+  }
+  
+  .aTagNav:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  #topNavBold {
+    font-weight: bold;
+  }
+  
+  #search {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .search_bar {
+    width: 600px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+  #sign-in:hover {
+    cursor: pointer;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .searchBar {
+    border-radius: 15px;
+  }
+  
+  #mainNav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #84A98C;
+    height: 75px;
+  }
+  
+  .aMainNav:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  #sale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #EF7474;
+  
+  }
+  .saleP {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 50%;
+    }
+  }
+  
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  #hero {
+    width: 100vw;
+  }
+  
+  footer {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+  }
+  
+  .tas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+  }
+  
+  .tas:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  #sign-up {
+    padding: 0px 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #sign-up:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+  
+  #sign-up:active {
+    background-color: darkred;
+  }
